@@ -2,8 +2,10 @@ import 'package:e_commerce_app1_with_edit_flowers_app/core/styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, this.onTap});
+  const CustomButton({super.key, this.onTap, required this.text, required this.color});
   final void Function()? onTap;
+  final String text;
+  final Color color;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -14,12 +16,12 @@ class CustomButton extends StatelessWidget {
           height: 50,
           width: 346,
           decoration: BoxDecoration(
-            color: const Color(0xffff9501),
+            color: color,
             borderRadius: BorderRadius.circular(12)
           ),
           child: Center(
             child: Text(
-              'LOGIN' , 
+             text , 
             style: Styles.textStyle18.copyWith(color: Colors.white,
             fontFamily: 'Poppins',
             fontWeight: FontWeight.bold
