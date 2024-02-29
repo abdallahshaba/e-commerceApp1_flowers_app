@@ -23,13 +23,14 @@ class Styles {
   );
   static const textStyle18 = TextStyle(
     fontFamily: kfont2,
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: FontWeight.w100
   );
 
   static const textStyle20 = TextStyle(
-    fontSize: 16,
-    fontWeight: FontWeight.w500,
-    color: Colors.black
+    fontSize: 19,
+    fontWeight: FontWeight.w600,
+    color: Color.fromARGB(255, 255, 255, 255),
+    fontFamily: 'Poppins',
   );
 }

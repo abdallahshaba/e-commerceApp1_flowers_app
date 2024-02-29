@@ -21,16 +21,16 @@ class LoginViewBody extends StatelessWidget {
             width: 50,
           ),
           Container(
-              height: 350,
+              height: 300,
               width: double.infinity,
               child: Image.asset(
-                'assets/images/3.jpg',
+                'assets/images/33.jpg',
                 fit: BoxFit.fill,
               )),
           Center(
             child: Padding(
               padding: const EdgeInsets.only(
-                top: 290
+                top: 270
               ),
               child: Card(
                 elevation: 3,
@@ -63,7 +63,7 @@ class LoginViewBody extends StatelessWidget {
                               style: Styles.textStyle80,
                               children: [
                                 TextSpan(
-                                  text: 'FURNISH ',
+                                  text: 'FLOWERS ',
                                 ),
                               ]),
                         ),
@@ -74,11 +74,11 @@ class LoginViewBody extends StatelessWidget {
                           text: TextSpan(
                             style: TextStyle(
                                 fontSize: 18,
-                                letterSpacing: 2.5,
+                                letterSpacing: 4.7,
                                 color: Colors.black.withOpacity(0.6)),
                             children: const [
                               TextSpan(
-                                text: 'FURNITURE SHOP APP',
+                                text: 'FLOWERS SHOP APP',
                                 style: TextStyle(),
                               ),
                             ],
@@ -106,10 +106,10 @@ class LoginViewBody extends StatelessWidget {
                         height: 15,
                       ),
                       CustomButton(
-                        color: Color(0xffff9501),
+                        color: const Color(0xffff9501),
                         text: 'Login',
-                        onTap: () {
-
+                        onPressed: () {
+                          GoRouter.of(context).push('/HomeView');
                         },
                       ),
                       const SizedBox(
