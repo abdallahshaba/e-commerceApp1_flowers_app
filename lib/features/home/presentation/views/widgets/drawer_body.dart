@@ -11,13 +11,15 @@ class DrawerBody extends StatelessWidget {
               const UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/images/78.jpg'),
+                          image: AssetImage('assets/images/flower-purple-lical-blosso.jpg'),
                           fit: BoxFit.cover)),
                   currentAccountPicture: CircleAvatar(
-                    backgroundImage: AssetImage('assets/images/33.jpg'),
+                    backgroundImage: AssetImage('assets/images/4444.png',
+                    ),
+                    
                   ),
-                  accountName: Text("Toqua Shaban"),
-                  accountEmail: Text("toqua@gmail.com")),
+                  accountName: Text("Ali Shaban"),
+                  accountEmail: Text("ali@gmail.com")),
               ListTile(
                 title: const Text("Home"),
                 leading: const Icon(Icons.home),

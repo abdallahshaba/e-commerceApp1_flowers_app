@@ -19,7 +19,7 @@ class Styles {
   static const textStyle16 = TextStyle(
     fontFamily: kfont2,
     fontSize: 20,
-    fontWeight: FontWeight.w800
+    fontWeight: FontWeight.w400
   );
   static const textStyle18 = TextStyle(
     fontFamily: kfont2,
